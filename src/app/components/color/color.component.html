@@ -1,0 +1,12 @@
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Color Id</th>
+            <th scope="col">Color Name</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let color of colors">
+        <td>{{color.colorId}}</td>
+        <td>{{color.colorName}}</td>
+    </tr>
+</table>
